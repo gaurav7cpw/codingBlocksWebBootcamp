@@ -1,0 +1,47 @@
+embeddeing media elements in html page:-
+<img> tag is used
+attribubtes src = ""//soource of image
+width = ""
+height = ""
+alt = ""//for some reason image is not loaded in the web page then this will work
+//unsplash.com for images
+
+audio can be added using <audio> tag
+<audio src = "" controls>
+we can also add loop,autoplay
+
+vedio can be added using video tag
+<video src = "" controls>
+
+mdn can checked for more attributes
+
+
+
+HTML SEMANTICS
+some basic things in a website
+1) navigation bar 
+     {we can use either <div> or either <nav>{more helpful in SEO}}
+2) main content
+3) footer (coyright, contacts etc.)
+
+
+exploring semantics element
+1) 
+   <nav> can come under <header>
+
+//can a website have more than one navigation bar
+
+
+
+CSS stands for cascading style sheet
+->also called presentation layer
+->skin to html
+
+where should we write css?
+3 ways to include css
+1)inline 
+2)internal
+3)external
+
+style attribute is used for inline method 
+propertyName : propertyValue ;
