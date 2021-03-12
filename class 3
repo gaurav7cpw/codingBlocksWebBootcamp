@@ -1,0 +1,95 @@
+adding vdideo, audio, images element in html page.
+we can add image using <img> tag. there are two attributes src and alt.
+src contains the location of image.
+to set the size give height or width. if given one other will adjust.
+img is a inline element
+alt contains a text, if the image is not displayed the text is dislayed.
+<img src"" alt=""></img>
+
+
+<audio src = "" controls></audio>
+we can add audio in the html page
+if the controls attribute is not passed it will do nothing
+other attributes are autoplay and loop
+
+<video src = "" width controls></video>
+
+we display another page using iframe
+<iframe src="" frameborder=""></iframe>
+some websites do not allow to connect
+
+HTML Semantics
+
+semantics - which is meaningful.
+Semantics element
+<footer></footer>
+
+basics things in website
+1)nav bar - menu,products,about
+2)main content
+3)footer - copyright 
+
+semantic tags are tags with meaning. we can also use div tag instead of them.
+use of semantics can help in seo.
+
+nav
+main
+footer
+header - introductory element, navigation can also come under header
+section - a particular part of web page
+article
+aside {this doesn't put the content in the side of the page, that is done by css, it just contains the content which is needed to be placed in the side of webpage}
+figcaption - to add a description with an image
+
+
+CSS - Cascading style sheet 
+also known as presentaion layer and skin to html
+
+where should we write css?how to include css in html
+there are three ways
+1)inline
+2)internal
+3)external
+
+1)inline
+property name:property value;
+properties - border, color, text-align
+
+disadvantage
+->if required same changes in many elements then we need to make changes for every element 
+->code becomes messy
+
+2)internal
+<style> </style>
+css selesctors - to select the elements 
+
+3)external
+create a different file for css
+link tag can be used to add different resources to our page
+<link rel = "stylesheet" href="./style.css">
+
+TYPES OF SELECTORS (to select/choose which element/things/components will get css changes/styling)
+element - specific type of element
+universal - *{ } to every element
+ID - make changes to specific id given to element #id_name{ }
+class - make changes to having same class name .class_name{ }
+attribute - 
+
+
+Combinators
+1)desendent
+2)child
+3)adjacent
+4)general sibling
+
+pseudo classes or selectors
+
+String matching
+^ = starts with 
+$ = ends with
+* = anywhere
+
+Specificity and inheritance
+
+
+coolors.co
