@@ -1,0 +1,26 @@
+BOX MODEL 
+it treats every element as a rectangular box
+4 properties of evry box 
+1)dimentions
+2)Border 
+3)Margin
+4)Padding
+
+
+CSS UNITS
+1)absolute Units - Px,cm,inches,mm,
+2)Reative Units
+
+
+EM
+REM
+
+
+Display Properties
+inline
+block 
+inline-block
+none
+
+
+Layout
