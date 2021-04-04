@@ -1,0 +1,12 @@
+creating a nav bar
+remove default padding and margin
+font properties
+* font-family a list of fonts based on priority, if higher priority font is not available next one os used , serif and non serif fonts are avilable in maximum machines
+* font size 
+* font style 
+* font weight 
+* line height
+* letter spacing 
+* font variant
+
+text-shadow 
